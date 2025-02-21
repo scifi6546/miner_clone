@@ -1,5 +1,6 @@
 #include "game_engine.hpp"
-int main(int argc, char* argv[]){
+//#include <SDL.h>
+int main(int argc, char* args[]){
     init();
     return 0;
 }

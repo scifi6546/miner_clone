@@ -1,4 +1,4 @@
-#include "shader.h"
+#include "shader.hpp"
 #include "loadfile.h"
 #include "error.h"
 #include "render_manager.h"

@@ -1,8 +1,8 @@
-#include "camera.h"
+#include "camera.hpp"
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <glm/ext.hpp>
-#include "shader.h"
+#include "shader.hpp"
 #include <string>
 #include <math.h>
 #include "error.h"

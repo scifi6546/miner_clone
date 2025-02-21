@@ -1,6 +1,6 @@
 #include "texture.h"
 #include <string>
-#include "shader.h"
+#include "shader.hpp"
 #include <GL/glew.h>
 #include "stb_image.h"
 #include <assert.h>

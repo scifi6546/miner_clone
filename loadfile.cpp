@@ -1,19 +1,18 @@
 #include "loadfile.h"
 #include <string>
+#include <fstream>
+#include <iostream>
 std::string loadFile(std::string filedir){
-	printf("file: %s", filedir.c_str());
-    FILE *filep;
-    filep=fopen(filedir.c_str(),"r");
+    std::ifstream f(filedir, std::ios::binary | std::ios::ate);
+
+
+    FILE* filep;
+
     std::string file = std::string();
-    char temp_char;
-    while(0==0){
-        temp_char=fgetc(filep);
-        if(temp_char==EOF){
-            break;
-        }else{
-            file.push_back(temp_char);
-        }
-    }
-    fclose(filep);
-    return file;
+    auto size = f.tellg();
+    std::string file_contents(size, '\0');
+    f.seekg(0);
+    f.read(&file_contents[0], size);
+    std::cout << file_contents;
+    return file_contents;
 }

@@ -1,5 +1,5 @@
 #include <string>
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #ifndef Display_H
 #define Display_H
 int initDisplay(int width, int height, std::string title);

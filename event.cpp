@@ -1,6 +1,6 @@
 #include "event.h"
-#include "camera.h"
-#include "game_engine.h"
+#include "camera.hpp"
+#include "game_engine.hpp"
 bool INT_closed;
 SDL_Event e;
 

@@ -1,11 +1,11 @@
-#include "game_engine.h"
+#include "game_engine.hpp"
 #include "display.h"
 #include "render_manager.h"
 #include "mesh.h"
 #include "event.h"
 #include "texture.h"
-#include "camera.h"
-#include "shader.h"
+#include "camera.hpp"
+#include "shader.hpp"
 #include "error.h"
 unsigned int frameBufferFBO;
 unsigned int frameBufferTex;//depth map texture
