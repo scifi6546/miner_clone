@@ -1,13 +1,12 @@
-#include "game_engine.h"
-#include <SDL2/SDL.h>
+#include "game_engine.hpp"
+#include <SDL.h>
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <string>
-#include "shader.h"
+#include "shader.hpp"
 #include "display.h"
 #include "mesh.h"
-//#include "texture.h"
-#include "camera.h"
+#include "camera.hpp"
 #include "event.h"
 #include "block.h"
 #include "error.h"

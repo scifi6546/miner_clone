@@ -10,3 +10,6 @@ core
 .vscode
 *.out
 Project3
+.vs
+miner_project
+Debug

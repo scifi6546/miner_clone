@@ -1,7 +1,7 @@
 #ifndef shader_H
 #define shader_H
 #include <glm/glm.hpp>
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include <GL/glew.h>
 #include <string>
 

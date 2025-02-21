@@ -1,7 +1,7 @@
 #ifndef game_engine_H
 #define game_engine_H
 
-#include <SDL2/SDL.h>
+#include <SDL.h>
 #include <GL/glew.h>
 #include <glm/glm.hpp>
 int init();
